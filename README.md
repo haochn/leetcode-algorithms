@@ -6,3 +6,4 @@
 | [2923. 找到冠军 I](java/FindChampionI.java)                                         | Easy       |
 | [1702. 修改后的最大二进制字符串](java/MaximumBinaryStringAfterChange.java)                  | Medium     |
 | [706. 设计哈希映射](java/MyHashMap.java)                                              | Easy       |
+| [705. 设计哈希集合](java/MyHashSet.java)                                              | Easy       |
