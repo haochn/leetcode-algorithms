@@ -1,5 +1,5 @@
+import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.LinkedList;
 
 /**
  * 706. 设计哈希映射
@@ -34,16 +34,16 @@ public class MyHashMap {
     }
 
     private static final int BASE = 769;
-    private LinkedList[] data;
+    private ArrayList[] data;
 
     private int hash(int key) {
         return key % BASE;
     }
 
     public MyHashMap() {
-        data = new LinkedList[BASE];
+        data = new ArrayList[BASE];
         for (int i = 0; i < BASE; i++) {
-            data[i] = new LinkedList<Node>();
+            data[i] = new ArrayList<Node>();
         }
     }
 
@@ -54,6 +54,7 @@ public class MyHashMap {
             Node node = iterator.next();
             if (node.getKey() == key) {
                 node.setValue(value);
+                return;
             }
         }
         data[h].add(new Node(key, value));
@@ -78,6 +79,7 @@ public class MyHashMap {
             Node node = iterator.next();
             if (node.getKey() == key) {
                 iterator.remove();
+                return;
             }
         }
     }
