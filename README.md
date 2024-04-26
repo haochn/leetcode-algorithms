@@ -9,3 +9,4 @@
 | [705. 设计哈希集合](java/MyHashSet.java)                                              | Easy       |
 | [924. 尽量减少恶意软件的传播](java/MinimizeMalwareSpread.java)                             | Hard       |
 | [2007. 从双倍数组中还原原数组](java/FindOriginalArrayFromDoubledArray.java)                | Medium     |
+| [2739. 总行驶距离](java/TotalDistanceTraveled.java)                                  | Easy       |
