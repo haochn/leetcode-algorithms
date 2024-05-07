@@ -12,3 +12,4 @@
 | [2739. 总行驶距离](java/TotalDistanceTraveled.java)                                  | Easy       |
 | [1017. 负二进制转换](java/ConvertToBase2.java)                                        | Medium     |
 | [1329. 将矩阵按对角线排序](java/SortTheMatrixDiagonally.java)                            | Medium     |
+| [1652. 拆炸弹](java/DefuseTheBomb.java)                                            | Easy       |
